@@ -1,0 +1,10 @@
+package Collection_Framework;
+
+public class LearnQueue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

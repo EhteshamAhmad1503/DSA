@@ -1,0 +1,13 @@
+package Collection_Framework;
+
+public class LearnStack {
+	static void Stacks() {
+
+		Stack<>
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package LeetCode;
+
+import java.util.*;
+
+public class ReverseArray {
+
+	public static void main(String[] args) {
+
+		List<Integer> num = new ArrayList<>();
+
+		num.add(11);
+		num.add(7);
+		num.add(3);
+		num.add(12);
+		num.add(4);
+
+		System.out.println(num + " ");
+
+	}
+
+}

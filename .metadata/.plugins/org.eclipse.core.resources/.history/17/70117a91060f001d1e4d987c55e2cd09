@@ -1,0 +1,25 @@
+package Shorting;
+
+public class SelectionShort {
+
+	public static void main(String[] args) {
+
+		int arr[] = { 6, 3, 7, 9, 8, 1 };
+
+		for (int i = 0; i < arr.length - 1; i++) {
+			int MinIndex = i;
+			for (int j = i + 1; j < arr.length - 1; j++) {
+				if (MinIndex > arr[j]) {
+					MinIndex = j;
+				} else {
+					int temp = MinIndex;
+					MinIndex = arr[j + 1];
+					arr[j + 1] = temp;
+				}
+				System.out.println(arr[j] + " ");
+			}
+			
+		}
+	}
+
+}
