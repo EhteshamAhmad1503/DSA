@@ -1,0 +1,17 @@
+package PassByValue;
+
+public class Pass {
+	static void Update(int n)
+	{
+		n++;
+	}
+
+	public static void main(String[] args) {
+		
+		int a=10;
+		System.out.println("Before : "+a);
+		Update(a);
+		System.out.println("After : "+a);
+	}
+
+}

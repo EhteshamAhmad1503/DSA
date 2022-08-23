@@ -1,11 +1,9 @@
 package Shorting;
 
 public class BubbleShort {
-
-	public static void main(String[] args) {
-
-		int nums[] = { 2, 8, 3, 9, 10, 1 };
-
+	
+	static void sort(int nums[])
+	{
 		for (int i = 0; i < nums.length - 1; i++) // for round 1 to n-1;
 		{
 			boolean swapped = false;
@@ -27,5 +25,12 @@ public class BubbleShort {
 		for (int i = 0; i < nums.length; i++) {
 			System.out.print(nums[i] + " ");
 		}
+	}
+
+	public static void main(String[] args) {
+
+		int nums[] = { 2, 8, 3, 9, 10, 1 };
+		sort(nums);
+		
 	}
 }

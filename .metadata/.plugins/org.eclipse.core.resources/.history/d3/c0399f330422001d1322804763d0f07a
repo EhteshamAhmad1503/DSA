@@ -1,0 +1,19 @@
+package LeetCode;
+
+public class Zigzag {
+	
+	static void ZigzagConversion(String str)
+	{
+		char ch=str.charAt(3);
+		for(char i=0;i < ch;i++)
+		{
+			System.out.println(i);
+		}
+	}
+
+	public static void main(String[] args) {
+	
+		String str="PAYPALISHIRING";
+		System.out.println(str);	}
+
+}

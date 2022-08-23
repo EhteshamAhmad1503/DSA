@@ -1,0 +1,27 @@
+package LeetCode;
+
+import java.util.Arrays;
+
+public class RemovingMinimum {
+	 int minimumDeletions(int[] nums)
+	{
+		if (nums.length == 1)
+		{
+			return nums.length;
+		}
+		Arrays.sort(nums);
+		for (int i = 0; i < nums.length - 2; i++)
+		{
+			nums[i] = nums[i + 1];
+		}
+		return nums.length;
+	}
+
+	public static void main(String[] args) {
+
+		int[] nums = { 2, 10, 7, 5, 4, 1, 8, 6 };
+		System.out.println(minimumDeletions(nums));
+
+	}
+
+}
