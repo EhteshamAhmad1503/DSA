@@ -10,9 +10,9 @@ public class Count {
 		{
 			return;
 		}
-		System.out.print(n + " ");
+
 		Print(n - 1);
-		
+		System.out.print(n + " ");
 
 	}
 
